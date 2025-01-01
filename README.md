@@ -1,5 +1,5 @@
 # Temperature-Converter
 
-[https://weatherconverter.netlify.app/](https://temperatureconverter6.netlify.app/)  ---> dropdown
+[Dropdown](https://temperatureconverter6.netlify.app/)  ---> dropdown
 
-[https://weatherconverter.netlify.app](https://temperatureconverter6.netlify.app/second)  ---> toggle button
+[Toggle](https://temperatureconverter6.netlify.app/second)  ---> toggle button
