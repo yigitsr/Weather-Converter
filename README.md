@@ -1,4 +1,4 @@
-# Weather-Converter
+# Temperature-Converter
 
 [https://weatherconverter.netlify.app/](https://temperatureconverter6.netlify.app/)  ---> dropdown
 
