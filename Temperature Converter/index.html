@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Converter</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+
+</head>
+
+<body>
+<div class="overlay" id="overlay"></div>
+<div class="popup" id="popup">
+    <p>Please enter a valid number</p>
+    <button onclick="closePopup()">Close</button>
+</div>
+<div class="converter">
+    <h1>Temperature Converter</h1>
+    <input type="number" id="temperature" placeholder="Enter temperature">
+    <select id="unit">
+        <option value="F">&deg;F</option>
+        <option value="C">&deg;C</option>
+    </select>
+    <br>
+    <button onclick="convertTemperature()">Convert</button>
+    <button onclick="toggleDarkMode()">Toggle Dark Mode</button>
+</div>
+<div class="result" id="result"></div>
+
+</body>
+
+</html>
